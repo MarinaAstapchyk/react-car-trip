@@ -1,0 +1,53 @@
+* {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.App {
+  text-align: center;
+  background-color: #8bd8ee;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 2px black solid;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 350px;
+  }
+}
+
+.app-header {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: Arial;
+  color: black;
+  border: 2px solid black;
+}
+
+.result {
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 5px;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: cadetblue;
+}
+
+.tank {
+  border: 2px solid black;
+}
+
+.mpg {
+  border: 2px solid black;
+}
+
+.distance {
+  border: 2px solid black;
+}
+
